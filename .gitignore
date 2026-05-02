@@ -1,0 +1,17 @@
+# General system files
+.DS_Store
+Thumbs.db
+
+# Frontend (React) ignores
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+
+# Backend (Spring Boot / IntelliJ) ignores
+backend/target/
+backend/.gradle/
+backend/build/
+backend/.idea/
+backend/*.iml
+backend/.env
